@@ -168,7 +168,11 @@ Requirements to software and settings:
 -   Set the operating system locale. Add following line to the `/etc/environment` file.
 
         LC_ALL=en_US.UTF-8
-
+        
+-   By default, java 11 will be installed with Ubuntu 14.04,you need to install java 8 
+        sudo apt-get install openjdk-8-jdk
+    and choose the correct version to use
+        sudo update-alternatives --config java
 
 ### 2.5 Installation
 
